@@ -1,0 +1,19 @@
+{
+  "name": "require-times",
+  "version": "1.0.0",
+  "description": "see how long files take to require from the CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/require-times.git"
+  },
+  "author": "max ogden",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/maxogden/require-times/issues"
+  },
+  "homepage": "https://github.com/maxogden/require-times"
+}
