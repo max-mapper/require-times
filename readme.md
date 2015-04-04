@@ -6,19 +6,19 @@ find out how long `require` calls take in your program. this is a debugging tool
 
 ## usage
 
-1. require it
+require it
 
 ```
 var rt = require('require-times')
 ```
 
-2. call 'start' before the requires you wanna measure
+call 'start' before the requires you wanna measure
 
 ```
 rt.start()
 ```
 
-3. call 'end' when you wanna stop measuring. you should put this right after your last require() call
+call 'end' when you wanna stop measuring. you should put this right after your last require() call
 
 ```
 rt.end()
