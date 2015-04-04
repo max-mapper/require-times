@@ -4,6 +4,8 @@
 
 find out how long `require` calls take in your program. this is a debugging tool for figuring out why apps load slowly
 
+the results print the amount of time elapsed *between* require calls. this isn't necessarily the same as the amount of time taken by each require, but rather the time elapsed between two require calls starting (as opposed to the time taken between 1 require call starting *and* ending, but we can't instrument ending, only starting)
+
 ## usage
 
 require it
