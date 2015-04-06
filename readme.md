@@ -8,10 +8,10 @@ the results print the amount of time elapsed *between* require calls. this isn't
 
 ## usage
 
-require it
+require it and make an instance
 
 ```
-var rt = require('require-times')
+var rt = require('require-times')()
 ```
 
 call 'start' before the requires you wanna measure
