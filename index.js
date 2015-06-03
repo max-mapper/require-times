@@ -48,7 +48,7 @@ module.exports = function requireTimes (extensions) {
       return b.time - a.time;
     })
     .forEach(function(t) {
-      if (t.time > threshold)
+      if (t.time >= threshold)
         console.log(prefix + t.time + 'ms', t.name)
       printTree(t.name, prefix + '  ', threshold);
     });
